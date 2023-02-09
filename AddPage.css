@@ -1,0 +1,123 @@
+.header {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+    margin: -8px;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px gray;
+    padding-left: 15px;
+}
+
+.ad {
+    font: normal bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.add-page {
+    background-color: burlywood;
+    margin-top: 26px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 25px;
+}
+
+.main-content {
+    display: flex;
+    background-color:rgb(208, 222, 135);
+}
+
+.details-text {
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(2, 13, 24);
+}
+
+.cancel-button {
+    padding-left: 500px;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.row-content {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 126px 44px;
+    align-items: center;
+}
+
+.input {
+    width: 95%;
+    padding: 5px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+
+}
+
+input {
+    padding: 12px;
+}
+
+.select {
+    width: 32%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+
+#name {
+    margin-top: 33px;
+}
+
+.buttonParent {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: orange;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+    border-color: brown;
+}
+
+.submitButton {
+    border: 2px;
+    background-color: white;
+    margin-left: 320px;
+}
+
+.resetButton {
+    border: 1px;
+    background-color: white;
+    margin-left: 30px;
+}
